@@ -3,4 +3,8 @@
 	culture = frankish
 	religion = jewish
 }
-
+8000002 = {
+	name="Forrad"   
+	culture = gothic
+	religion = norse_pagan
+}
