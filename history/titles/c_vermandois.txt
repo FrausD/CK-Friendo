@@ -29,6 +29,7 @@
 }
 1045.1.1={
 	holder=8824037
+	liege=0
 }
 1080.1.1={
 	holder=419 #Adèle de Vermandois
