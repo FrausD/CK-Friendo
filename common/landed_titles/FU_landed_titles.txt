@@ -1,30 +1,323 @@
-k_belgium = {
-	color={ 228 53 53 }
-	color2={ 216 216 84 }
+ e_hre = {                      # Created by special decision only
+	color={ 250 250 250 }
+	color2={ 0 0 0 }
+	
+	capital = 90 # Jülich / Aachen
 
-	capital = 77 # Artois
-
-	title = "principality_title"
-	title_female = "principality_title_female"
-	foa = "principality_foa"
-	title_prefix = "principality_prefix"
-
+	short_name = yes
+	
 	allow = {
-		conditional_tooltip = {
-			trigger = {
-				k_belgium = {
-					is_titular = yes
+		always = no # Only created through special decisions
+	}
+	k_belgium = {
+    color={ 255 215 0 }
+	color2={ 0 0 0 }
+		culture = french
+		
+		capital = 78 
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = french
+					culture = french
 				}
 			}
-			k_belgium = {
-				is_titular = no
+		}
+		
+		catholic = 700 # Crusade target weight
+		norse_pagan_reformed = 200 # Crusade target weight
+		
+		d_flanders = {
+			color={ 255 120 0 }
+			color2={ 255 255 255 }
+			
+			capital = 78
+			
+			culture = french
+			
+			c_artois = {
+				color={ 234 110 90 }
+				color2={ 255 255 255 }
+				
+				b_arras = {
+				}
+				b_terwaan = {
+				}
+				b_bethune = {
+				}
+				b_lens = {
+				}
+				b_lille = {
+				}
+				b_bouvines = {
+				}
+				b_beaumetz = {
+				}
+				b_bapaume = {
+				}
+			}
+			c_boulogne = {
+				color={ 224 140 90 }
+				color2={ 255 255 255 }
+				
+				b_boulogne = {
+				}
+				b_montreuil = {
+				}
+				b_saintpol = {
+				}
+				b_hesdin = {
+				}
+				b_fauquembergues = {
+				}
+				b_ternouis = {
+				}
+				b_therouanne = {
+				}
+				b_ardres = {
+				}
+			}
+			c_guines = {
+				color={ 194 145 100 }
+				color2={ 255 255 255 }
+				
+				b_guines = {
+				}
+				b_saintomer = {
+				}
+				b_calais = {
+				}
+				b_dunkerque = {
+				}
+				b_bourbourg = {
+				}
+				b_marck = {
+				}
+				b_gravelines = {
+				}
+				b_coulogne = {
+				}
+			}
+			c_yperen = {
+				color={ 194 115 40 }
+				color2={ 255 255 255 }
+				
+				b_ypres = {
+				}
+				b_rosebeke = {
+				}
+				b_cassel = {
+				}
+				b_roeselare = {
+				}
+				b_poperinge = {
+				}
+				b_menen = {
+				}
+				b_diksmuide = {
+				}
+				b_wervik = {
+				}
+			}
+			c_brugge = {
+				color={ 250 120 0 }
+				color2={ 255 255 255 }
+				
+				b_brugge = {
+				}
+				b_damme = {
+				}
+				b_sluys = {
+				}
+				b_oostende = {
+				}
+				b_male = {
+				}
+				b_nieuwpoort = {
+				}
+				b_torhout = {
+				}
+				b_aardenburg = {
+				}
+			}
+			c_gent = {
+				color={ 234 110 5 }
+				color2={ 255 255 255 }
+				
+				b_gent = {
+				}
+				b_doornik = {
+				}
+				b_oudenaarde = {
+				}
+				b_aalst = {
+				}
+				b_st_niklaas = {
+				}
+				b_dendermonde = {
+				}
+				b_kortrijk = {
+				}
+				b_geraardsbergen = {
+				}
 			}
 		}
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				religion = jewish
+				d_picardie = {
+			color={ 15 101 188 }
+			color2={ 255 255 255 }
+			
+			capital = 95 # Amiens
+			
+			c_vermandois = {
+				color={ 41 147 214 }
+				color2={ 255 255 255 }
+				
+				b_coucy = {
+				}
+				b_stquentin = {
+				}
+				b_laon = {
+				}
+				b_montaigu = {
+				}
+				b_gauchy = {
+				}
+				b_guise = {
+				}
+				b_signy = {
+				}
+			}
+			c_amiens = {
+				color={ 44 151 217 }
+				color2={ 255 255 255 }
+				
+				b_peronne = {
+				}
+				b_amiens = {
+				}
+				b_noyon = {
+				}
+				b_corbie = {
+				}
+				b_montdidier = {
+				}
+				b_breteuil = {
+				}
+				b_nesle = {
+				}
+				b_soissons = {}
+			}
+			c_clermont = {	#NEW
+				color={ 39 140 250 }
+				color2={ 255 255 255 }
+				
+				b_clermont_PIC = {
+				}
+				b_gisors = {
+				}
+				b_beauvais = {
+				}
+				b_tille = {
+				}
+				b_nogent_sur_oise = {
+				}
+				b_chelles = {
+				}
+				b_noailles = {
+				}
+			}
+			c_ponthieu = {	#NEW
+				color={ 35 130 240 }
+				color2={ 255 255 255 }
+				
+				b_abbeville = {
+				}
+				b_saint-valery = {
+				}
+				b_le_treport = {
+				}
+				b_montreuil_PdC = {
+				}
+				b_le_crotoy = {
+				}
+				b_flixecourt = {
+				}
+				b_ault = {
+				}
 			}
 		}
-	}
-}
+		d_brabant = {
+			color={ 200 100 60 }
+			color2={ 255 255 255 }
+			
+			capital = 117 #Brabant
+			
+			culture = french
+		
+			c_brabant = {
+				color={ 200 100 65 }
+				color2={ 255 255 255 }
+			
+				b_leuven = {
+				}
+				b_mechelen = {
+				}
+				b_brussel = {
+				}
+				b_antwerpen = {
+				}
+				b_aarschot = {
+				}
+				b_grimbergen = {
+				}
+				b_herstal = {
+				}
+				b_lier = {
+				}
+			}
+			c_hainaut = {
+				color={ 210 120 40 }
+				color2={ 255 255 255 }
+			
+				b_valenciennes = {
+				}
+				b_cambrai = {
+				}
+				b_avesnes = {
+				}
+				b_mons = {
+				}
+				b_chievres = {
+				}
+				b_enghien = {
+				}
+				b_charleroi = {
+				}
+				b_ath = {
+				}
+			}
+			c_breda = {
+				color={ 234 145 54 }
+				color2={ 255 255 255 }
+			
+				b_breda = {
+				}
+				b_shertogenbosch = {
+				}
+				b_tilburg = {
+				}
+				b_willemstad = {
+				}
+				b_bergenopzoom = {
+				}
+				b_cuijck = {
+				}
+				b_ravenstein = {
+				}
+				b_horn = {
+				}
+			}
+		}
+		
