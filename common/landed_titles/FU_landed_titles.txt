@@ -1,0 +1,30 @@
+k_belgium = {
+	color={ 228 53 53 }
+	color2={ 216 216 84 }
+
+	capital = 77 # Artois
+
+	title = "principality_title"
+	title_female = "principality_title_female"
+	foa = "principality_foa"
+	title_prefix = "principality_prefix"
+
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				k_belgium = {
+					is_titular = yes
+				}
+			}
+			k_belgium = {
+				is_titular = no
+			}
+		}
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				religion = jewish
+			}
+		}
+	}
+}
