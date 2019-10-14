@@ -28,7 +28,7 @@ religion = norse_pagan
 	b_solvesborg = ca_shipyard_1
 	b_elleholm = tp_shipyard_1
 	b_avaskar = ct_port_1
-	culture = gothic
+	culture = crimean_gothic
 	religion = norse_pagan
 }
 #1150.1.1 = { b_elleholm = temple }

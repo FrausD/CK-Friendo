@@ -28,7 +28,7 @@ religion = norse_pagan
 	b_hammershus = ca_shipyard_1
 }
 1066.1.1 = {
-	culture = gothic
+	culture = crimean_gothic
 	religion = norse_pagan
 }
 1066.1.1 = { trade_post = b_gildehusen }

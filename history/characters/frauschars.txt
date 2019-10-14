@@ -34,7 +34,7 @@
 	female = no
 	dynasty=8000002
 	religion="norse_pagan"
-	culture="gothic"
+	culture="crimean_gothic"
 	add_trait = "attractive"
 	add_trait = "groomed"
 	add_trait = "proud"

@@ -33,7 +33,7 @@ religion = norse_pagan
 	b_halmstad = tp_shipyard_1
 }
 1066.1.1 = {
-	culture = gothic
+	culture = crimean_gothic
 	religion = norse_pagan
 }
 #1231.1.1 = { b_halmstad = temple }
