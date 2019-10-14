@@ -1,0 +1,8 @@
+936.1.1 = {
+	holder = 6444 
+	liege = k_france
+}
+1066.1.1 = {
+	holder = 8824037
+	liege = 0
+}

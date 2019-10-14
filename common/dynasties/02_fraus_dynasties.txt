@@ -1,0 +1,6 @@
+8000001 = {
+	name="Jewlord"   
+	culture = frankish
+	religion = jewish
+}
+

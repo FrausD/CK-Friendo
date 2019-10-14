@@ -1,0 +1,27 @@
+8824037 = {
+	name="Luke"
+	1066.1.1 = {
+		add_spouse=8824039
+	}
+	father = 8824038
+	female = no
+	dynasty=8000001
+	religion="jewish"
+	culture="frankish"
+	add_trait = "genius"
+	add_trait = "groomed"
+	add_trait = "greedy"
+	add_trait = "immortal"
+	add_trait = "brilliant_strategist"
+	martial = 15
+	diplomacy = 15
+	intrigue = 15
+	stewardship = 15
+	learning = 15
+	1049.12.12={
+		birth=yes
+	}
+	1098.1.1={
+		death=yes
+	}
+}
