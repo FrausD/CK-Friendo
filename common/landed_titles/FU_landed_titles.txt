@@ -12,10 +12,15 @@
 	k_belgium = {
     color={ 255 215 0 }
 	color2={ 0 0 0 }
-		culture = french
+	culture = french
 		
-		capital = 78 
+	capital = 78 
 		
+	title = "principality_title"
+	title_female = "principality_title_female"
+	foa = "principality_foa"
+	title_prefix = "principality_prefix"
+	
 		allow = {
 			hidden_tooltip = {
 				OR = {
