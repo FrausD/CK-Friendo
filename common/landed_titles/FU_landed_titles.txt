@@ -326,3 +326,14 @@
 			}
 		}
 		
+    k_frausigothia = {
+		color={	75 0 130 }
+		color2={ 255 255 255 }
+
+		capital = 303
+		
+		title = "archduchy_title"
+		title_female = "archduchy_title_female"
+		foa = "archduchy_foa"
+		title_prefix = "archduchy_prefix"
+	}
