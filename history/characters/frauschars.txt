@@ -11,8 +11,10 @@
 	add_trait = "genius"
 	add_trait = "groomed"
 	add_trait = "greedy"
+	add_trait = "erudite"
+	add_trait = "gamer"
 	add_trait = "immortal"
-	add_trait = "brilliant_strategist"
+	add_trait = "elusive_shadow"
 	martial = 15
 	diplomacy = 15
 	intrigue = 15
@@ -35,7 +37,7 @@
 	dynasty=8000002
 	religion="norse_pagan"
 	culture="crimean_gothic"
-	add_trait = "attractive"
+	add_trait = "fair"
 	add_trait = "groomed"
 	add_trait = "proud"
 	add_trait = "immortal"
@@ -44,8 +46,44 @@
 	add_trait = "lusful"
 	add_trait = "slothful"
 	add_trait = "envious"
-	add_trait = "Gluttonous"
+	add_trait = "gluttonous"
+	add_trait = "drunkard"
+	add_trait = "hedonist"
 	add_trait = "grey_eminence"
+	martial = 15
+	diplomacy = 15
+	intrigue = 15
+	stewardship = 15
+	learning = 15
+	1049.12.12={
+		birth=yes
+	}
+	1098.1.1={
+		death=yes
+	}
+}
+8824043 = {
+	name="Ted"
+	1066.1.1 = {
+		add_spouse=8824044
+	}
+	father = 8824045
+	female = no
+	dynasty=8000003
+	religion="catholic"
+	culture="german"
+	add_trait = "groomed"
+	add_trait = "genius"
+	add_trait = "proud"
+	add_trait = "immortal"
+    add_trait = "stubborn"
+	add_trait = "erudite"
+	add_trait = "shrewd"
+	add_trait = "just"
+	add_trait = "diligent"
+	add_trait = "ambitious"
+	add_trait = "administrator"
+	add_trait = "brilliant_strategist"
 	martial = 15
 	diplomacy = 15
 	intrigue = 15

@@ -8,3 +8,8 @@
 	culture = crimean_gothic
 	religion = norse_pagan
 }
+8000003 = {
+	name="Imperator"   
+	culture = german
+	religion = catholic
+}
