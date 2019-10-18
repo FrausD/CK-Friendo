@@ -1,0 +1,5 @@
+8100001 = {
+	name="Tailor"   
+	culture = gujurati
+	religion = hindu
+}
