@@ -7,6 +7,14 @@
 	name="Forrad"   
 	culture = crimean_gothic
 	religion = norse_pagan
+	coat_of_arms=
+	{
+		data=
+		{
+0 7 0 7 0 0 0 			}
+		religion="catholic"
+	}
+	used_for_random=no
 }
 8000003 = {
 	name="Imperator"   
