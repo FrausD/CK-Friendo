@@ -3,3 +3,8 @@
 	culture = gujurati
 	religion = hindu
 }
+8100002 = {
+	name="Duckling"   
+	culture = kannada
+	religion = hindu
+}
